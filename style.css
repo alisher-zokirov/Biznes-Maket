@@ -1,0 +1,226 @@
+/* header */
+.container{
+    width: 1920px;
+    height: 4146px;
+    margin: 0 auto;
+    border: 2px solid rgb(158, 248, 248);
+}
+
+.header-text h2{    
+    color: #263238;
+    font-size: 36px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 250px;
+}
+    
+.header-text{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 81px;
+    background: radial-gradient(87.68% 100% at 50.19% 100%, #0084FF 0%, #5CB0FF 100%);
+    border: none;
+    color: white;
+}
+
+.box-all{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.box{
+    display: flex;
+    width: 370px;
+    padding: 30px 30px 60px 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 48, 92, 0.10);
+}
+
+.box h4{
+    color: #263238;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.box p{
+    color: #263238;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+/* header end */
+
+/* info */
+.info-text{
+    color: #263238;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 250px;
+}
+
+.info-box{
+    display: flex;
+    width: 270px;
+    padding: 30px 30px 60px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 48, 92, 0.10);
+}
+
+.info-box h4{
+    color: #263238;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.info-box p{
+    color: #263238;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.info-box-all{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* info end */
+
+/* three */
+.big-box{
+    display: inline-flex;
+    padding: 60px;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 48, 92, 0.10);
+}
+
+.three-text{
+    color: #263238;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 250px;
+}
+
+.three-box-all{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* three end */
+
+/* bonusm */
+.bonusm-text{
+    color: #263238;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 250px;
+}
+
+.star-box{
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bonusm-box-all1{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 66px;
+}
+
+.bonusm-box-all2{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 90px;
+}
+/* bonusm end */
+
+/* footer */
+.footer{
+    margin-top: 250px;
+}
+
+.footer-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-end h2{
+    color: #263238;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-end p{
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-bt{
+    padding: 30px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 81px;
+    background: radial-gradient(87.68% 100% at 50.19% 100%, #0084FF 0%, #5CB0FF 100%);
+    box-shadow: 0px 10px 10px 0px rgba(0, 48, 92, 0.10);
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+/* footer end */
